@@ -182,15 +182,19 @@ notebook==6.4.12
     # via jupyterlab
 notebook-shim==0.1.0
     # via nbclassic
+numexpr==2.8.3
+    # via tables
 numpy==1.21.6
     # via
     #   -r requirements.in
     #   h5py
     #   keras-preprocessing
+    #   numexpr
     #   opt-einsum
     #   pandas
     #   scikit-learn
     #   scipy
+    #   tables
     #   tensorboard
     #   tensorflow
 oauthlib==3.2.0
@@ -204,6 +208,8 @@ packaging==21.3
     #   jupyterlab
     #   jupyterlab-server
     #   nbconvert
+    #   numexpr
+    #   tables
     #   tensorflow
 pandas==1.1.5
     # via -r requirements.in
@@ -299,6 +305,8 @@ sniffio==1.2.0
     # via anyio
 soupsieve==2.3.2.post1
     # via beautifulsoup4
+tables==3.7.0
+    # via -r requirements.in
 tensorboard==2.9.1
     # via tensorflow
 tensorboard-data-server==0.6.1
