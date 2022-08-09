@@ -100,6 +100,8 @@ jinja2==3.1.2
     #   nbclassic
     #   nbconvert
     #   notebook
+joblib==1.1.0
+    # via scikit-learn
 json5==0.9.9
     # via jupyterlab-server
 jsonschema==4.9.1
@@ -186,6 +188,8 @@ numpy==1.21.6
     #   h5py
     #   keras-preprocessing
     #   opt-einsum
+    #   scikit-learn
+    #   scipy
     #   tensorboard
     #   tensorflow
 oauthlib==3.2.0
@@ -263,6 +267,10 @@ requests-oauthlib==1.3.1
     # via google-auth-oauthlib
 rsa==4.9
     # via google-auth
+scikit-learn==1.0.2
+    # via sklearn
+scipy==1.7.3
+    # via scikit-learn
 send2trash==1.8.0
     # via
     #   jupyter-server
@@ -278,6 +286,8 @@ six==1.16.0
     #   keras-preprocessing
     #   python-dateutil
     #   tensorflow
+sklearn==0.0
+    # via -r requirements.in
 sniffio==1.2.0
     # via anyio
 soupsieve==2.3.2.post1
@@ -301,6 +311,8 @@ terminado==0.15.0
     #   jupyter-server
     #   nbclassic
     #   notebook
+threadpoolctl==3.1.0
+    # via scikit-learn
 tinycss2==1.1.1
     # via nbconvert
 tornado==6.2
