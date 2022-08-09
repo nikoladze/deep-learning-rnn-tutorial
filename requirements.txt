@@ -188,6 +188,7 @@ numpy==1.21.6
     #   h5py
     #   keras-preprocessing
     #   opt-einsum
+    #   pandas
     #   scikit-learn
     #   scipy
     #   tensorboard
@@ -204,6 +205,8 @@ packaging==21.3
     #   jupyterlab-server
     #   nbconvert
     #   tensorflow
+pandas==1.1.5
+    # via -r requirements.in
 pandocfilters==1.5.0
     # via nbconvert
 parso==0.8.3
@@ -248,9 +251,13 @@ pyparsing==3.0.9
 pyrsistent==0.18.1
     # via jsonschema
 python-dateutil==2.8.2
-    # via jupyter-client
+    # via
+    #   jupyter-client
+    #   pandas
 pytz==2022.1
-    # via babel
+    # via
+    #   babel
+    #   pandas
 pyzmq==23.2.0
     # via
     #   ipykernel
