@@ -1,5 +1,7 @@
 # RNN tutorial
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/nikoladze/deep-learning-rnn-tutorial/HEAD)
+
 RNN tutorials for the ErUM-Data-Hub Deep Learning School https://indico.scc.kit.edu/event/2851/
 
 We will use Exercises from Chapter 9 of http://deeplearningphysics.org and additional exercises from this repository:
@@ -14,4 +16,4 @@ We will use Exercises from Chapter 9 of http://deeplearningphysics.org and addit
   tf.config.threading.set_inter_op_parallelism_threads(1)
   ```
 3) Identify cosmic ray signals - [Exercise_09_2.ipynb](https://github.com/DeepLearningForPhysicsResearchBook/deep-learning-physics/blob/main/Exercise_09_2.ipynb) from *Deep Learning for Physics Research* - recommended to run on GPU [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DeepLearningForPhysicsResearchBook/deep-learning-physics/blob/master/Exercise_09_2.ipynb)
-4) Work with variable length sequences - [variable_length_masking.ipynb](variable_length_masking.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikoladze/deep-learning-rnn-tutorial/blob/master/variable_length_masking.ipynb)
+4) Work with variable length sequences - [variable_length_masking.ipynb](variable_length_masking.ipynb) - recommended to run on GPU [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/nikoladze/deep-learning-rnn-tutorial/blob/master/variable_length_masking.ipynb)
